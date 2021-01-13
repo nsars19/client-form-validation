@@ -23,7 +23,7 @@ form.addEventListener("submit", (e) => {
 });
 
 fields.forEach((field) => {
-  field.addEventListener("input", () => {
+  field.addEventListener("blur", () => {
     field.checkValidity()
       ? (field.className = "valid")
       : (field.className = "invalid");
