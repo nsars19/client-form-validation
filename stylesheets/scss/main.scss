@@ -1,0 +1,29 @@
+form {
+  display: grid;
+  grid-template-columns: minmax(200px, 300px);
+  gap: 20px;
+}
+
+.valid {
+  box-shadow: 0px 0px 1px 1px #0c0;
+}
+
+.invalid {
+  box-shadow: 0px 0px 2px 1px #c00;
+}
+
+.invalid-wiggle {
+  animation-duration: 0.1s;
+  animation-name: wiggle;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(1deg)
+  }
+  to {
+    transform: rotate(-1deg)
+  }
+}
