@@ -3,6 +3,10 @@ form {
   grid-template-columns: minmax(200px, 300px);
   gap: 20px;
   justify-content: center;
+
+  input {
+    min-height: 30px;
+  }
 }
 
 .valid {

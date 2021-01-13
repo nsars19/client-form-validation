@@ -4,6 +4,9 @@ form {
   gap: 20px;
   justify-content: center;
 }
+form input {
+  min-height: 30px;
+}
 
 .valid {
   box-shadow: 0px 0px 1px 1px #0c0;
