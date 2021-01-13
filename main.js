@@ -16,6 +16,8 @@ form.addEventListener("submit", (e) => {
       [pw, pwc].forEach(
         (field) => (field.className = "invalid invalid-wiggle")
       );
+
+      e.preventDefault();
     }
   }
 });
